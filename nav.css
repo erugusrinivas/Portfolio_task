@@ -1,0 +1,27 @@
+.hlo{
+    /* background-color: black; */
+    border:20px 10px black;
+    background-color: black;
+    border-width: 100px;
+    width:100%;
+    height:150%;
+    padding: 10px;
+    justify-content: space-around;
+    justify-content: space-between;
+   position: sticky;
+}
+ul li a{
+    text-decoration: none;
+    border:20px 30px;
+}
+.hlo a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ .section1{
+    background-color: "red";
+     /* text-color:"yellow";
+      link:"blue";
+       alink:"#FFFF00";
+       vlink:"#FF00FF"; */
+ }

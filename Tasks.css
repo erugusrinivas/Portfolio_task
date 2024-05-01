@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h6 {
+    margin: 1rem 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  /* Animations */
+  h1 {
+    animation: entrance ease-in-out 1s forwards;
+  }
+  
+  h2 {
+    animation: scale-up ease-in-out 0.5s forwards;
+  }
+  
+  h6 {
+    animation: fade-in ease-in-out 0.3s forwards;
+  }
+  
+  /* .go-to-link {
+    animation: highlight ease-in-out 0.5s infinite alternate;
+  } */
+  
+  .card1, .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin: 1rem;
+    animation: slide-in ease-in-out 0.5s forwards;
+  }
+  
+  .card1 h1, .card2 h1 {
+    margin-bottom: 0.5rem;
+    animation: pulse ease-in-out 2s infinite;
+  }
+  
+  ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ol li, ul li {
+    margin-bottom: 0.5rem;
+    animation: bounce-up ease-in-out 0.3s forwards;
+  }
+  
+  span {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Keyframes */
+  @keyframes entrance {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes scale-up {
+    from { transform: scale(0.9); }
+    to { transform: scale(1); }
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes highlight {
+    from { background-color: #f0f0f0; }
+    to { background-color: #fff; }
+  }
+  
+  @keyframes slide-in {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+  
+  @keyframes bounce-up {
+    from { transform: translateY(5px); }
+    to { transform: translateY(0); }
+  }
+  

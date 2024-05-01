@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Event Loop Creation</title>
+</head>
+<body>
+    <script>
+        console.log("start");
+setTimeout(function cbt(){
+    console.log("CB Set timeout");
+},5000)
+fetch("https://www.google.com")
+.then(function cbf(){
+    console.log("CB Netflix");
+});
+console.log("END");
+
+    </script>
+</body>
+</html>

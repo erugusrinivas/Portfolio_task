@@ -1,0 +1,54 @@
+.card {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.page-cration {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 40px;
+
+    /* font-family: "Sevillana", cursive; */
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+.Content {
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    font-weight: bold;
+    font-family: italic;
+    margin-top: -30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 70px;
+}
+
+.banner {
+    color: #ffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+i {
+    margin-left: 10px;
+}

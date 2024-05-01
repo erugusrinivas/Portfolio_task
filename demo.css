@@ -1,0 +1,191 @@
+body{
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(85, 49, 216, 0.863);
+    padding-top: 10px 20px;
+}
+h6{
+    background-color: bisque;
+}
+.container1{
+    margin-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+    /* background-color: grey; */
+    margin-top: -86px;
+    position: absolute;
+    margin-left: 502px;
+}
+button{
+    /* background-color: #7400cc;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px; */
+    background-color:blue;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 321px;
+    margin-top: 61px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: rgba(137, 43, 226, 0.135);
+}
+.card{
+    background-color: white;
+    width: 290px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+li{
+    list-style-type: none;
+    margin-right: 69px;
+    line-height: 30px;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    background-color: rgb(67, 67, 71);
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.card1{
+    background-color: white;
+    margin-left: 300px;
+    padding: 10px 20px;
+    margin-top: 18px;
+    margin-bottom:  70px;
+    height: 387px;
+}
+h1, h2, h6 {
+    margin: 1rem 0;
+  }
+  /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h6 {
+    margin: 1rem 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  /* Animations */
+  h1 {
+    animation: entrance ease-in-out 1s forwards;
+  }
+  
+  h2 {
+    animation: scale-up ease-in-out 0.5s forwards;
+  }
+  
+  h6 {
+    animation: fade-in ease-in-out 0.3s forwards;
+  }
+  
+  .go-to-link {
+    animation: highlight ease-in-out 0.5s infinite alternate;
+  }
+  
+  .card1, .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin: 1rem;
+    animation: slide-in ease-in-out 0.5s forwards;
+    margin-left: 100px;
+    height: 370px;
+    margin-top: 25px;
+  }
+  
+  .card1 h1, .card2 h1 {
+    margin-bottom: 0.5rem;
+    animation: pulse ease-in-out 2s infinite;
+  }
+  
+  ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ol li, ul li {
+    margin-bottom: 0.5rem;
+    animation: bounce-up ease-in-out 0.3s forwards;
+  }
+  
+  span {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Keyframes */
+  @keyframes entrance {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes scale-up {
+    from { transform: scale(0.9); }
+    to { transform: scale(1); }
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes highlight {
+    from { background-color: #f0f0f0; }
+    to { background-color: #fff; }
+  }
+  
+  @keyframes slide-in {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+  
+  @keyframes bounce-up {
+    from { transform: translateY(5px); }
+    to { transform: translateY(0); }
+  }
+ .card1 span{
+color: rgba(218, 165, 32, 0.66);
+background-color: black;
+  }
+i{
+   margin-left: -300px;
+   position: absolute;
+   margin-top: -70px;
+   /* background-color: white; */
+   size: 200px;
+   
+
+  }
+
+
+  

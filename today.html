@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document TYPE</title>
+</head>
+<body>
+    <Script>
+        async function json(){
+            let data=await fetch("text.json");
+            console.log(data);
+            data=await data.json()
+            console.log(data);
+        }
+        let s=[{
+    "name":"realme Note-5pro",
+    "price":15000
+    
+
+},
+{
+    "name":"realme Note-5pro",
+    "price":15000
+    
+
+}
+
+]
+console.log(s);
+console.log(json.stringfy(s));//it will coonvert string into object.
+    </Script>
+    
+</body>
+</html>

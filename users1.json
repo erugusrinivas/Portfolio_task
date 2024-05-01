@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "username": "johndoe",
+            "email": "john.doe@example.com",
+            "address": {
+                "street": "123 Main St",
+                "suite": "B",
+                "city": "Anytown",
+                "zipcode": "12345"
+            },
+            "phone": "123-456-7890",
+            "website": "johndoe.example.com",
+            "company": {
+                "name": "Company XYZ",
+                "catchPhrase": "Solutions at your fingertips",
+                "bs": "providing next-generation solutions for tomorrow's problems"
+            },
+            "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 2,
+            "name": "Jane Doe",
+            "username": "janedoe",
+            "email": "jane.doe@example.com",
+            "address": {
+                "street": "456 Market St",
+                "suite": "C",
+                "city": "Othertown",
+                "zipcode": "67890"
+            },
+            "phone": "098-765-4321",
+            "website": "janedoe.example.com",
+            "company": {
+                "name": "Company ABC",
+                "catchPhrase": "Making the world better, one connection at a time",
+                "bs": "creating value for the entire world"
+            },
+            "imageUrl": "https://via.placeholder.com/150"
+        }
+    ]
+}

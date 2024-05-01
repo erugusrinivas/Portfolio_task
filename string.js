@@ -1,0 +1,10 @@
+var a="Hlo iam srinivas"+123;
+console.log(a);
+console.log(a.length);
+ console.log(a.toUpperCase());
+ console.log(a.charAt(9));
+ console.log(a.indexOf("s"));
+b=Boolean(a);
+console.log(b);
+b=parseFloat(a);
+console.log(b);
